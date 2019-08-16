@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background-color: black;
+  background-color: transparent;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -13,10 +13,13 @@
 
 .fa-cocktail {
   font-size: 40px;
-  margin: 10px 10px 10px 150px;
+  position: absolute;
+  left: 100px;
   color: white;
 }
 
 .btn-mix {
-  margin-right: 30px;
+  position: absolute;
+  right: 100px;
+  top: 10px;
 }
