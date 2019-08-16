@@ -6,6 +6,11 @@
   width: 100vw;
 }
 
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 // .carousel-caption {
 //   text-align: center;
 // }
