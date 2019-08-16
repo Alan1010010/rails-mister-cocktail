@@ -13,10 +13,11 @@
 
 
   <body>
-       <div class="navbar-lewagon d-flex">
-    <%= link_to "Mix a Cocktail!", new_cocktail_path, class: "btn btn-primary rounded" %>
-    <%= link_to "Cocktails!", cocktails_path, class: "btn btn-primary rounded"%>
-    <div class="search">
+    <div class="navbar-lewagon sticky-top d-flex align-items-center">
+      <%= link_to new_cocktail_path do %>
+        <i class="fas fa-cocktail">tailCock</i>
+      <% end %>
+
       <%= form_tag(cocktails_path, method: :get) do %>
         <%= text_field_tag :search, params[:search] %>
         <%= submit_tag 'Search', name: nil, class: "btn btn-primary" %>
